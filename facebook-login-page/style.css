@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* box-sizing: border-box; rgb(233, 232, 228) */
+    display: flex;
+    background-color: rgba(240, 240, 239, 0.705);
+}
+
+                /* left section design  */
+
+.left-section{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    margin: 140px 80px;
+}
+.left-section h1{
+    color: rgb(67, 41, 236);
+    font-size: 70px;
+    font-weight: bolder;
+}
+.left-section p{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+                /* right section design */
+
+.right-section{
+    box-sizing: border-box;
+    /* width: 40%; */
+    margin: 100px 0px;
+    /* margin-left: 10%; */
+    text-align: center;
+}
+.login-input-div{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    background-color: 	white;
+    width: 430px;
+    height: 360px;
+    padding: 30px 15px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.349);
+}
+#number-input, #password-input, .login-btn{
+    padding: 12px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    display: block;
+    width: 93%;
+    font-size: medium;
+    font-weight: 400;
+}
+#number-input:focus, #password-input:focus{
+    outline: none !important;
+    border:2px solid rgb(0, 183, 255);
+    transition: ease 50ms;
+    box-shadow: 0 0 2px #719ECE;
+  }
+.login-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+}
+.pass-forgot-link{
+    text-decoration: none;
+
+}
+.create-account-btn{
+    display: block;
+    padding: 13px;
+    background-color: rgb(44, 143, 44);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 60px 110px;
+}
+.right-section p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
